@@ -1,0 +1,24 @@
+import java.io.IOException;
+
+class Test {
+    public void m() throws IOException {
+        throw new IOException("Device error");
+    }
+
+    void n() throws IOException {
+        m();
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        
+        Test obj = new Test();  // Create an Object  of Test class
+
+        try {
+            obj.n();  // Call method that may throw an exception
+        } catch (IOException e) {
+            System.out.println("Exception handled: " + e.getMessage());
+        }
+    }
+}
