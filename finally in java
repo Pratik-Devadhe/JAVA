@@ -1,0 +1,19 @@
+
+public class Main
+{
+        
+	public static void main(String[] args) {
+	    
+	  try{
+	      int[] mynumbers = {1,2,3,4,5};
+	      System.out.println(mynumbers[10]);
+	  }
+	  catch(Exception e){
+	      System.out.println("EXCeption occurred : " + e.getMessage());
+	  }
+	   finally{
+	       System.out.println("This is final block ;");
+	   }
+	}
+}
+
