@@ -1,0 +1,24 @@
+
+public class Main
+{
+        
+        
+    static void cheackage(int age){
+        
+        if(age < 18){
+            
+            throw new ArithmeticException("Access denied !! you should at least 18 years old.");
+            
+        }
+        else{
+            System.out.println("access granted .");
+        }
+        
+    }
+	public static void main(String[] args) {
+	    
+	    cheackage(13);
+		
+	}
+}
+
