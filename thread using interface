@@ -1,0 +1,24 @@
+
+class mythread implements Runnable{
+    public void run(){
+        System.out.println("This is my thread");
+    }
+}
+class mythread2 implements Runnable{
+    public void run(){
+        System.out.println("this is 2nd thread");
+    }
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+		mythread  m1 = new mythread();
+		Thread t1 = new Thread(m1);
+		mythread2 m2 = new mythread2();
+		Thread t2 = new Thread(m2);
+		
+		t1.run();
+		t2.run();
+	}
+}
