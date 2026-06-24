@@ -11,7 +11,7 @@ class PrintNumbers extends Thread {
     }
 }
 
-class Main {
+public class TradingUsingThread {
     public static void main(String[] args) {
         PrintNumbers t1 = new PrintNumbers();
         PrintNumbers t2 = new PrintNumbers();

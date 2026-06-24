@@ -10,7 +10,7 @@ class Test {
     }
 }
 
-class Main {
+public class ThrowsInJava {
     public static void main(String[] args) {
         Test obj = new Test(); // Create an Object of Test class
 

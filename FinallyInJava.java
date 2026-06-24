@@ -1,4 +1,4 @@
-class Main {
+public class FinallyInJava {
     public static void main(String[] args) {
         try {
             int[] mynumbers = {1, 2, 3, 4, 5};

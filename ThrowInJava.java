@@ -1,4 +1,4 @@
-class Main {
+public class ThrowInJava {
     static void cheackage(int age) {
         if (age < 18) {
             throw new ArithmeticException("Access denied !! you should at least 18 years old.");

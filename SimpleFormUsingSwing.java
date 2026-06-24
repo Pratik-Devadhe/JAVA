@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-class swing1 {
+public class SimpleFormUsingSwing {
     public static void main(String args[]) {
         JFrame jf = new JFrame("Swing Example");
         Container c = jf.getContentPane();
@@ -19,6 +19,7 @@ class swing1 {
         t1.setFont(textFieldFont); 
         t1.setBackground(Color.yellow); // Set background color
         t1.setForeground(Color.black);
+        l1.setFont(textFieldFont);
 
         // password 
         JLabel l2 = new JLabel("Password:");

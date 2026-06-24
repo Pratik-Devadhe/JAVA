@@ -10,7 +10,7 @@ class mythread2 implements Runnable {
     }
 }
 
-class Main {
+public class ThreadUsingInterface {
     public static void main(String[] args) {
         mythread m1 = new mythread();
         Thread t1 = new Thread(m1);
